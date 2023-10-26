@@ -1,5 +1,6 @@
 {
     "api_key": "",
     "client_secret": "",
-    "client_key": ""
+    "client_key": "",
+    "base_url": ""
 }
