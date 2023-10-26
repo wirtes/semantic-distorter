@@ -3,7 +3,7 @@
 import re
 
 
-gutenberg_text_ebook_title = "The hermit hunter of the wilds by Gordon Stables.txt"
+gutenberg_text_ebook_title = "Alices Adventures in Wonderland by Lewis Carroll.txt"
 
 # Input and output file names
 input_file_name = "books/source/" + gutenberg_text_ebook_title  # Replace with your input file name
@@ -21,12 +21,14 @@ with open(output_file_name, "w") as output_file:
         # Remove forced wrap found in Gutenberg ebooks
         # Search for every line break that isn't immediately preceded by a period
         #   and remove it.
-        unbroken_paragraph = re.sub(r"([^\.])\n", r"\1 ", line)
+        # unbroken_paragraph = re.sub(r"([^\.])\n", r"\1 ", line)
         # Filter out short lines
-        sentences = unbroken_paragraph.split(".")
+        sentences = line.split(".")
         for sentence in sentences:
+            sentence = sentence.strip()
             if len(sentence) > 12:
-                output_file.write(sentence+".")
+                # print(sentence)
+                output_file.write(sentence+".\n")
 
 
 print("File processing complete. Output written to", output_file_name)

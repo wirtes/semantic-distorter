@@ -3,7 +3,7 @@
 import requests
 import json
 import random
-import re
+import sqlite3
 from pprint import pprint
 
 
@@ -38,9 +38,36 @@ def translate(text_to_translate, source_language, target_language):
     return translated_object["translatedText"]
 
 
-if __name__ == '__main__':
-    original_text_to_translate = "“Dost thou well, O poplar-tree log, to boast thus of thy beauty and stateliness?"
+def get_a_line():
+    # Define the SQLite database file name
+    db_filename = "database/book_lines.db"
 
+    # Create a connection to the database
+    conn = sqlite3.connect(db_filename)
+
+    # Create a cursor object to interact with the database
+    cursor = conn.cursor()
+
+    # Select a random row from the "lines" table and retrieve the "line" field
+    cursor.execute("SELECT line FROM lines ORDER BY RANDOM() LIMIT 1")
+    random_line = cursor.fetchone()
+
+    # Check if a random row was found
+    # if random_line:
+    #     # Print the "line" field from the random row
+    #     print("Random Line:", random_line[0])
+    # else:
+    #     print("No rows found in the 'lines' table.")
+
+    # Close the database connection
+    conn.close()
+
+    return random_line[0]
+
+
+if __name__ == '__main__':
+    original_text_to_translate = get_a_line()
+    print ("Original: " + original_text_to_translate)
     # Pick a number of times to translate the statement
     cycles = random.randint(5, 10)
     text_to_translate = original_text_to_translate
@@ -53,6 +80,7 @@ if __name__ == '__main__':
             translated_text = translate(text_to_translate, translate_from_language, translate_to_language)
             print("Translated from " + translate_from_language + " to " + translate_to_language + ": ", translated_text)
             translate_from_language = translate_to_language
+            text_to_translate = translated_text
         current_cycle += 1
 
     # Translate back to English
