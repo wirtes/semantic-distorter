@@ -1,0 +1,17 @@
+LibreTranslate Language Codes
+
+
+en = english
+es = spanish
+ru = russian
+it = italian
+eo = esperanto
+ko = korean
+de = german
+ar = arabic
+az = azerbaijani
+he = hebrew
+hi = hindi
+ga = irish
+th = thai
+
