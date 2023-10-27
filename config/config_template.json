@@ -1,6 +1,17 @@
 {
     "api_key": "",
-    "client_secret": "",
-    "client_key": "",
-    "base_url": ""
+    "base_url": "",
+    "languages": {    "en": "English",
+                      "es": "Spanish",
+                      "ru": "Russian",
+                      "it": "Italian",
+                      "eo": "Esperanto",
+                      "ko": "Korean",
+                      "de": "German",
+                      "ar": "Arabic",
+                      "az": "Azerbaijani",
+                      "he": "Hebrew",
+                      "hi": "Hindi",
+                      "ga": "Irish",
+                      "th": "Thai"}
 }
