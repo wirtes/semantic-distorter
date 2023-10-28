@@ -10,7 +10,7 @@ from pprint import pprint
 
 def get_config():
     try:
-        with open('./config/config.json', 'r') as file:
+        with open('/home/pi/botcode/config/config.json', 'r') as file:
             data = json.load(file)
         return data
     except FileNotFoundError:
@@ -53,45 +53,38 @@ def translate(text_to_translate, source_language, target_language):
 
 def get_a_line():
     # Define the SQLite database file name
-    db_filename = "database/book_lines.db"
+    db_filename = "/home/pi/botcode/database/book_lines.db"
     # Create a connection to the database
     conn = sqlite3.connect(db_filename)
     # Create a cursor object to interact with the database
     cursor = conn.cursor()
     # Select a random row from the "lines" table and retrieve the "line" field
-    cursor.execute("SELECT line FROM lines ORDER BY RANDOM() LIMIT 1")
+    cursor.execute("SELECT line, author, title FROM lines ORDER BY RANDOM() LIMIT 1")
     random_line = cursor.fetchone()
+    # pprint(random_line)
     # Close the database connection
     conn.close()
-    return random_line[0]
+    return random_line
 
 
-def post_to_mastodon(message_obj, config):
+def post_to_mastodon(message_obj, config, translation_path, author, title, number_of_translations):
     # Initialize the Mastodon API client
     mastodon = Mastodon(
         access_token = config["api_key"],
         api_base_url = config["base_url"]
     )
-    number_of_translations = len(message_obj) - 1
-    message_text = message_obj["final"] + "\n\nTranslated " + str(number_of_translations) + " times.\n#SemanticDistorter #NondeterministicPoetry"
+    # number_of_translations = len(message_obj) - 1
+    message_text = message_obj["final"] + "\n\nA random sentence from '" + title + "' by " + author + " translated " + str(number_of_translations) + " times.\n#SemanticDistorter #NondeterministicPoetry"
 
     # Post a status update
-    initial_status_id = mastodon.status_post(status=message_text, visibility="unlisted")
+    initial_status_id = mastodon.status_post(status=message_text, visibility="public")
 
     print(message_text)
 
-    # pprint(message)
-    for key, value in reversed(list(message_obj.items())):
-        if key != "final":
-            if key == "original":
-                reply_text = "Original Text:\n\n" + value + "\n\n#SemanticDistorter"
-            else:
-                reply_text = "Previous translation in " + key + ":\n\n" + value + "\n\n#SemanticDistorter"
-            initial_status_id = mastodon.status_post(status=reply_text, in_reply_to_id=initial_status_id, visibility="unlisted")
-            print(reply_text)
-    return
-
-    print("Toots posted successfully!")
+    reply_text = "Original Text:\n\n" + message_obj["original"] + "\n\nis a line from the book '" + title +"' by " + author + " was translated " + translation_path + "\n\n#SemanticDistorter"
+    # Post a reply to the original status
+    #initial_status_id = mastodon.status_post(status=reply_text, in_reply_to_id=initial_status_id, visibility="unlisted")
+    print(reply_text)
     return
 
 
@@ -101,7 +94,10 @@ if __name__ == '__main__':
     # Initialize the Message Object
     message_obj = {}
     # Get a line to translate from the database
-    original_text_to_translate = get_a_line()
+    line_from_book = get_a_line()
+    original_text_to_translate = line_from_book[0]
+    author = line_from_book[1]
+    title = line_from_book[2]
     # Push the original line into the message object
     message_obj["original"] = original_text_to_translate
     print ("Original: " + original_text_to_translate)
@@ -109,7 +105,8 @@ if __name__ == '__main__':
     cycles = random.randint(5, 10)
     text_to_translate = original_text_to_translate
     translate_from_language = "en"
-    current_cycle = 0
+    current_cycle = 1
+    translation_path = "English->"
     while current_cycle < cycles:
         translate_to_language = pick_language(config["languages"])
         # Just skip if we selected the same language to translate
@@ -117,15 +114,17 @@ if __name__ == '__main__':
             translated_text = translate(text_to_translate, translate_from_language, translate_to_language)
             print("Translated from " + config["languages"][translate_from_language] + " to " + config["languages"][translate_to_language] + ": ", translated_text)
             message_obj[config["languages"][translate_to_language]] = translated_text
+            translation_path += config["languages"][translate_to_language] + "->"
             translate_from_language = translate_to_language
             text_to_translate = translated_text
-        current_cycle += 1
+            current_cycle += 1
 
     # Translate back to English
     translated_text = translate(translated_text, translate_from_language, "en")
     message_obj["final"] = translated_text
+    translation_path += "English"
     print("Final: ", translated_text)
-    post_to_mastodon(message_obj, config)
+    post_to_mastodon(message_obj, config, translation_path, author, title, current_cycle)
 
 
 

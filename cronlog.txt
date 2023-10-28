@@ -1,0 +1,119 @@
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 7, in <module>
+    from mastodon import Mastodon
+ModuleNotFoundError: No module named 'mastodon'
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 7, in <module>
+    from mastodon import Mastodon
+ModuleNotFoundError: No module named 'mastodon'
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 7, in <module>
+    from mastodon import Mastodon
+ModuleNotFoundError: No module named 'mastodon'
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 7, in <module>
+    from mastodon import Mastodon
+ModuleNotFoundError: No module named 'mastodon'
+Config file not found.
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 97, in <module>
+    line_from_book = get_a_line()
+  File "/home/pi/botcode/main.py", line 58, in get_a_line
+    conn = sqlite3.connect(db_filename)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 97, in <module>
+    line_from_book = get_a_line()
+  File "/home/pi/botcode/main.py", line 58, in get_a_line
+    conn = sqlite3.connect(db_filename)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "/home/pi/botcode/main.py", line 97, in <module>
+    line_from_book = get_a_line()
+  File "/home/pi/botcode/main.py", line 58, in get_a_line
+    conn = sqlite3.connect(db_filename)
+sqlite3.OperationalError: unable to open database file
+Original: “‘Liza Ann and me has eno’, praised be His name,” said Barnaby, “and I wish you long life and luck to spend your fortune, boys.
+Translated from English to Korean:  “‘Liza Ann과 me has eno’, 칭찬은 그의 이름,” Barnaby 말했다, “나는 당신에게 긴 수명과 행운을 빌어 요, 소년.
+Translated from Korean to English:  “‘Liza Ann and me has eno’, compliment is his name,” Barnaby said, “I have long life and good luck, boy.
+Translated from English to Esperanto:  "Liza Ann kaj mi eno, komplimento estas lia nomo", Barnaby diris, "mi havas longan vivon kaj bonŝancon, knabon.
+Translated from Esperanto to Hindi:  "Liza Ann और I, एक अनुपालन उसका नाम है, Barnaby ने कहा, "मेरे पास लंबे जीवन और भाग्य, एक लड़का है।.
+Translated from Hindi to Spanish:  "Liza Ann y yo, un cumplimiento es su nombre, Barnaby dijo, "Tengo larga vida y suerte, un niño. .
+Translated from Spanish to German:  "Liza Ann und ich, eine Erfüllung ist sein Name, Barnaby sagte: "Ich habe lange Leben und Glück, ein Kind. .
+Translated from German to English:  "Liza Ann and I, a fulfillment is his name, Barnaby said, "I have long life and happiness, a child. .
+Translated from English to Hindi:  "Liza Ann और I, एक पूर्ति उसका नाम है, Barnaby ने कहा, "मैं लंबे जीवन और खुशी, एक बच्चे है। ।.
+Translated from Hindi to Russian:  Лиза Энн и я, исполнение - его имя, Барнаби сказал: «У меня долгая жизнь и счастье, ребенок. ...
+Final:  Lisa Anne and I, execution, his name, Barnaby said, "I have a long life and happiness, a child. ...
+Lisa Anne and I, execution, his name, Barnaby said, "I have a long life and happiness, a child. ...
+
+A random sentence from 'The Hermit Hunter of the Wilds' by Gordon Stables translated 10 times.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+“‘Liza Ann and me has eno’, praised be His name,” said Barnaby, “and I wish you long life and luck to spend your fortune, boys.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Korean->English->Esperanto->Hindi->Spanish->German->English->Hindi->Russian->English
+
+#SemanticDistorter
+Original: I was guide to a good white man before.
+Translated from English to Azerbaijani:  Mən yaxşı bir ağ adam əvvəl.
+Translated from Azerbaijani to English:  I before a good white man.
+Translated from English to Arabic:  أنا قبل رجل أبيض جيد.
+Translated from Arabic to Esperanto:  Mi estas antaŭ bona blankulo.
+Translated from Esperanto to Hindi:  मैं एक अच्छा सफेद आदमी के सामने हूँ।.
+Translated from Hindi to Korean:  나는 좋은 흰색 남자의 앞에 있습니다. ·.
+Translated from Korean to Russian:  У меня впереди хороший белый человек. ·.
+Translated from Russian to Thai:  ฉันมีสีขาวที่ดีในฉัน ·.
+Final:  I have a good white color in me ·.
+I have a good white color in me ·.
+
+A random sentence from 'The Hermit Hunter of the Wilds' by Gordon Stables translated 9 times.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+I was guide to a good white man before.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Azerbaijani->English->Arabic->Esperanto->Hindi->Korean->Russian->Thai->English
+
+#SemanticDistorter
+Original: An attempt had been made to keep this strange puss on board, but all in vain.
+Translated from English to Irish:  Rinneadh iarracht a choinneáil ar an puss aisteach ar bord, ach go léir i vain.
+Translated from Irish to Hindi:  यह बोर्ड पर अजीब मवाद रखने की कोशिश की थी, लेकिन सभी व्यर्थ में।.
+Translated from Hindi to Korean:  그것은 보드에 이상한 pus를 유지하려고했지만 모든 vain. ·.
+Translated from Korean to Azerbaijani:  bu board bir gözəl pus tutmağa çalışdı, lakin bütün boş. ·.
+Translated from Azerbaijani to Irish:  an bord iarracht a ghabháil pus álainn, ach go léir folamh. ·.
+Translated from Irish to Italian:  il consiglio cerca di prendere bei pus, ma tutti vuoti. ·.
+Final:  the council tries to take good pus, but all empty. ·.
+the council tries to take good pus, but all empty. ·.
+
+A random sentence from 'The Hermit Hunter of the Wilds' by Gordon Stables translated 7 times.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+An attempt had been made to keep this strange puss on board, but all in vain.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Irish->Hindi->Korean->Azerbaijani->Irish->Italian->English
+
+#SemanticDistorter
+Original: “Thinking again?” the Duchess asked, with another dig of her sharp little chin.
+Translated from English to Hebrew:  "לחשוב שוב?", שאל הדוכסית, עם עוד חופר של הסנטר הקטן שלה.
+Translated from Hebrew to English:  "Think again?" asked the Duchess, with another horn of her little chin.
+Translated from English to Azerbaijani:  "Bir daha baxmaq?" onun az chin digər torpaq sorğu.
+Translated from Azerbaijani to Hindi:  "मैं एक और देखो? अपने छोटे ठोड़ी के अन्य भूमि सर्वेक्षण।.
+Translated from Hindi to Italian:  "Vedo un altro? Altre indagini terrestri del tuo piccolo mento. .
+Translated from Italian to English:  "I see another one? Other earthly investigations of your little chin. .
+Translated from English to Hebrew:  "אני רואה עוד אחד? חקירות ארציות אחרות של הסנטר הקטן שלך. .
+Translated from Hebrew to Italian:  “Vedo un altro? Altre indagini nazionali sul tuo mento. .
+Translated from Italian to Esperanto:  Ĉu mi vidas alian? Aliaj naciaj enketoj pri via temo..
+Final:  Do I see another? Other national surveys on your topic.
+Do I see another? Other national surveys on your topic.
+
+A random sentence from 'Alices Adventures in Wonderland' by Lewis Carrol translated 10 times.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+“Thinking again?” the Duchess asked, with another dig of her sharp little chin.
+
+is a line from the book 'Alices Adventures in Wonderland' by Lewis Carrol was translated English->Hebrew->English->Azerbaijani->Hindi->Italian->English->Hebrew->Italian->Esperanto->English
+
+#SemanticDistorter
