@@ -23,20 +23,24 @@ cursor.execute('''
 # Commit the changes
 conn.commit()
 
+total_lines = 0
+written_lines = 0
 # Open and read the text file
-text_file_name = "sample.txt"  # Replace with the name of your text file
-with open("books/lines/Alices Adventures in Wonderland by Lewis Carroll.txt", "r") as text_file:
+text_file_name = "Bram Stoker-Dracula.txt"  # Replace with the name of your text file
+author = "Bram Stoker"
+title = "Dracula"
+with open("books/lines/" + text_file_name, "r") as text_file:
     for line in text_file:
-        # Assuming you want to insert each line as a row with the author and file fields empty
-        line = line.strip()
-        author = "Lewis Carrol"
-        title = "Alices Adventures in Wonderland"
+        total_lines = total_lines + 1
+        if len(line) > 25 and len(line) < 400:
+            written_lines = written_lines + 1
+            line = line.strip()
+            cursor.execute("INSERT INTO lines (line, author, title) VALUES (?, ?, ?)", (line, author, title))
 
-        # Insert the line into the database
-        cursor.execute("INSERT INTO lines (line, author, title) VALUES (?, ?, ?)", (line, author, title))
 
 # Commit the changes
 conn.commit()
 conn.close()
 
-print(f"SQLite database '{db_filename}' with 'lines' table has been created.")
+print(f"SQLite database '{db_filename}' with 'lines' table has been created/updated.")
+print(f"{total_lines} total lines in file, {written_lines} written to database")

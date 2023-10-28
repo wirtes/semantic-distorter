@@ -117,3 +117,331 @@ Original Text:
 is a line from the book 'Alices Adventures in Wonderland' by Lewis Carrol was translated English->Hebrew->English->Azerbaijani->Hindi->Italian->English->Hebrew->Italian->Esperanto->English
 
 #SemanticDistorter
+Original: Then let us just kneel down here among the cinders and praise God’s holy name.
+Translated from English to Irish:  Ansin lig dúinn ach kneel síos anseo i measc na cinders agus moladh ainm naofa Dé.
+Translated from Irish to English:  Then let us just kneel down here among the cinders and praise the holy name of God.
+Translated from English to Azerbaijani:  Daha sonra biz yalnız cinders arasında diz çökməyə və Allahın hər hansı adını övləyin.
+Translated from Azerbaijani to Arabic:  ثمّ نَسْألُ فقط a ركبة بين cinders وأيّ اسم الله.
+Translated from Arabic to Spanish:  entonces sólo pedimos una rodilla entre los cinders y cualquier nombre de dios.
+Final:  then we only ask for a knee between the cinders and any name of god.
+then we only ask for a knee between the cinders and any name of god.
+
+A random sentence from 'The Hermit Hunter of the Wilds' by Gordon Stables translated 6 times.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Then let us just kneel down here among the cinders and praise God’s holy name.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Irish->English->Azerbaijani->Arabic->Spanish->English
+
+#SemanticDistorter
+Original: One day about three weeks after the adventure in the floods, as the party were filing over the ridge of a hill, Samaro pointed away towards the horizon with his outstretched arm.
+Translated from English to Russian:  Однажды, примерно через три недели после приключений в наводнениях, когда партия подавала над хребтом холма, Самаро указал на горизонт своей вытянутой рукой.
+Translated from Russian to Korean:  1 일, 홍수 후 약 3 주, 파티가 언덕의 능선을 명중 할 때, 사마로 자신의 팔의 수평선에 지적.
+Translated from Korean to Hindi:  1 दिन, बाढ़ के लगभग 3 सप्ताह बाद, जब पार्टी ने पहाड़ी की रिज को मारा, तो उसके हाथ की क्षैतिज रेखा को समारा में इंगित किया।.
+Translated from Hindi to Korean:  1 일, 홍수 후 약 3 주, 파티가 언덕의 능선을 강타 할 때, 그의 손의 수평선 Samara. ·.
+Translated from Korean to Spanish:  1 día, unas 3 semanas después de la inundación, cuando el partido barrió la cresta de la colina, la línea horizontal de su mano Samara. ·.
+Translated from Spanish to Italian:  1 giorno, circa 3 settimane dopo il diluvio, quando il partito ha spazzato la cresta della collina, la linea orizzontale della sua mano Samara. ·.
+Translated from Italian to Arabic:  يوم واحد، بعد 3 أسابيع تقريباً من الفيضانات، عندما قام الحزب بمسح عقيدة التل، الخط الأفقي من يده سامارا. ·.
+Translated from Arabic to Spanish:  Un día, casi tres semanas después de las inundaciones, cuando el partido limpió la doctrina de la colina, la línea horizontal de la mano de Samara.
+Translated from Spanish to Hindi:  एक दिन, बाढ़ के लगभग तीन सप्ताह बाद, जब पार्टी ने पहाड़ी के सिद्धांत को साफ किया, तो समारा के हाथ की क्षैतिज रेखा।.
+Final:  One day, about three weeks after the flood, when the party cleaned the principle of the hill, the horizontal line of the hand of Samara. .
+One day, about three weeks after the flood, when the party cleaned the principle of the hill, the horizontal line of the hand of Samara. .
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+One day about three weeks after the adventure in the floods, as the party were filing over the ridge of a hill, Samaro pointed away towards the horizon with his outstretched arm.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Russian->Korean->Hindi->Korean->Spanish->Italian->Arabic->Spanish->Hindi->English
+
+#SemanticDistorter
+Original: And you strangled him?”.
+Translated from English to Irish:  Agus strangled tú dó?".
+Translated from Irish to Thai:  และคุณวางมุม.
+Translated from Thai to Esperanto:  Kaj vi metis angulon.
+Translated from Esperanto to German:  Du hast einen Winkel gesetzt.
+Translated from German to Korean:  당신은 각도를 설정한다.
+Translated from Korean to Italian:  Hai impostato l'angolo.
+Final:  You set the corner.
+You set the corner.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+And you strangled him?”.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Irish->Thai->Esperanto->German->Korean->Italian->English
+
+#SemanticDistorter
+Original: “_All_ the rest?”.
+Translated from English to Esperanto:  "Ĉu la resto estas?".
+Translated from Esperanto to Russian:  Остальное? ”.
+Translated from Russian to Spanish:  ¿El resto.
+Translated from Spanish to Hebrew:  השאר.
+Translated from Hebrew to Korean:  휴식.
+Final:  Reservation.
+Reservation.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+“_All_ the rest?”.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Esperanto->Russian->Spanish->Hebrew->Korean->English
+
+#SemanticDistorter
+Original: All unconscious of danger Tom Talisker was coming singing to himself, gun on shoulder, across the plain, when out from the woods rushed that fiery-eyed bull.
+Translated from English to Hebrew:  כל הלא מודע לסכנה טום טליקר בא לשיר לעצמו, אקדח על כתף, על פני המישורים, כשבחוץ מן היער מיהר את השור הזה.
+Translated from Hebrew to Korean:  위험의 모든 의식 Tom Tlyker 자신에 대한 노래에왔다, 그의 어깨에 총, 평야의 표면에, 숲 밖에이 비행기를 빠르게 할 때.
+Translated from Korean to English:  All rituals of danger Tom Tlyker came to the song for themselves, gun on his shoulder, on the surface of plain, when doing this plane outside the forest.
+Translated from English to Thai:  พิธีกรรมของอันตรายของ Tom Tlyker มาถึงเพลงสําหรับตัวเอง, ปืนไหล่ของเขา, บนพื้นผิวธรรมดา, เมื่อทําเครื่องบินภายนอก.
+Translated from Thai to Hindi:  टॉम ट्लेकर के खतरे का अनुष्ठान खुद के लिए संगीत के लिए आया था, उसकी कंधे की बंदूक, सादे सतह पर, जब बाहर एक विमान बना।.
+Translated from Hindi to Russian:  Ритуал опасности Тома Такера пришел к музыке для себя, его плечевой пистолет, на поверхности, при создании самолета снаружи. ...
+Translated from Russian to Irish:  Tháinig deasghnátha riosca Tom Tucker ar ceol dó féin, a phiostal ghualainn ar an dromchla, nuair a tógadh an eitleán taobh amuigh. ...
+Final:  Tom Tucker's risk ritual came on music for himself, his shoulder phiostal on the surface, when the plane was built outside. ...
+Tom Tucker's risk ritual came on music for himself, his shoulder phiostal on the surface, when the plane was built outside. ...
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+All unconscious of danger Tom Talisker was coming singing to himself, gun on shoulder, across the plain, when out from the woods rushed that fiery-eyed bull.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Hebrew->Korean->English->Thai->Hindi->Russian->Irish->English
+
+#SemanticDistorter
+Original: Tom looked now towards the point from which they had entered the plateau; it appeared very far away indeed.
+Translated from English to Arabic:  ونظر توم الآن نحو النقطة التي دخلوا منها الهضبة؛ وظهر بعيدا جدا في الواقع.
+Translated from Arabic to English:  Tom has now looked at the point from which they entered the hill; he has actually appeared very far.
+Translated from English to Esperanto:  Tom nun rigardis la punkton de kiu ili eniris la monteton; li fakte aperis tre malproksime.
+Translated from Esperanto to Arabic:  ونظر توم الآن إلى النقطة التي دخلوا فيها التل؛ وظهر بالفعل بعيدا جدا.
+Translated from Arabic to Irish:  Tom Tá d'fhéach sé anois ar an bpointe nuair a tháinig siad an cnoc; tá sé le feiceáil cheana féin go mór.
+Translated from Irish to Spanish:  Tom ahora ha mirado el punto cuando llegaron a la colina; ya se ve mucho.
+Translated from Spanish to Italian:  Tom ha ora guardato il punto quando sono arrivati sulla collina; egli vede già molto.
+Translated from Italian to Hebrew:  טום הביט בנקודה שבה הם הגיעו אל הגבעה, הוא כבר רואה הרבה.
+Translated from Hebrew to Arabic:  (توم) نظر إلى نقطة وصولهم إلى التل، رأى الكثير.
+Final:  Tom looked at their access point to the hill, saw a lot.
+Tom looked at their access point to the hill, saw a lot.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Tom looked now towards the point from which they had entered the plateau; it appeared very far away indeed.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Arabic->English->Esperanto->Arabic->Irish->Spanish->Italian->Hebrew->Arabic->English
+
+#SemanticDistorter
+Original: However, he consented to go on.
+Translated from English to Russian:  Однако он согласился продолжить.
+Translated from Russian to Hindi:  हालांकि, वह जारी रखने के लिए सहमत हुए।.
+Translated from Hindi to Korean:  그러나 그는 계속 동의. ·.
+Translated from Korean to Russian:  Но он продолжает соглашаться. ·.
+Translated from Russian to Azerbaijani:  Amma o razılaşmaq edir. ·.
+Translated from Azerbaijani to Spanish:  Pero está de acuerdo. ·.
+Translated from Spanish to Arabic:  لكنك موافق ·.
+Translated from Arabic to Korean:  그러나 당신은 동의한다.
+Translated from Korean to Esperanto:  Sed vi konsentas.
+Final:  But you agree.
+But you agree.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+However, he consented to go on.
+
+is a line from the book 'Alices Adventures in Wonderland' by Lewis Carrol was translated English->Russian->Hindi->Korean->Russian->Azerbaijani->Spanish->Arabic->Korean->Esperanto->English
+
+#SemanticDistorter
+Original: Some were too gaudily coloured to be otherwise than suspicious.
+Translated from English to Russian:  Некоторые были слишком раскрашены, чтобы быть иначе, чем подозрительными.
+Translated from Russian to English:  Some were too painted to be different than suspicious.
+Translated from English to Russian:  Некоторые были слишком раскрашены, чтобы отличаться от подозрительных.
+Translated from Russian to Irish:  Bhí roinnt ró-leathan a bheith difriúil ó amhrasach.
+Translated from Irish to Esperanto:  Kelkaj tro larĝaj devis esti malsamaj de dubinda.
+Translated from Esperanto to Spanish:  Algunos demasiado anchos eran para ser diferentes de dudoso.
+Translated from Spanish to Hindi:  बहुत व्यापक रूप से संदिग्ध से अलग होना था।.
+Translated from Hindi to Korean:  매우 널리 질 수 있습니다. ·.
+Translated from Korean to Esperanto:  povas esti tre granda kvalito. ·.
+Final:  it can be a very big quality. · ·.
+it can be a very big quality. · ·.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Some were too gaudily coloured to be otherwise than suspicious.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Russian->English->Russian->Irish->Esperanto->Spanish->Hindi->Korean->Esperanto->English
+
+#SemanticDistorter
+Original: ” “But,” he added, after a brief pause, “I’m not going to bother you now.
+Translated from English to Hindi:  "लेकिन" उन्होंने कहा, एक संक्षिप्त ठहराव के बाद, "मैं अब आपको परेशान नहीं कर रहा हूं।.
+Translated from Hindi to Spanish:  "Pero" Él dijo, Después de una breve estancación, "Ya no te estoy molestando. .
+Translated from Spanish to Hindi:  "लेकिन" उन्होंने कहा, एक संक्षिप्त ठहराव के बाद, "मैं अब आपको परेशान नहीं हूं। ।.
+Translated from Hindi to Hebrew:  "אבל" הוא אמר, לאחר קיפאון קצר, "אני כבר לא מעצבן אותך.
+Translated from Hebrew to Italian:  "Ma" disse, dopo una breve stagnazione, "Non ti infastidisco più.
+Translated from Italian to Spanish:  "Pero" dijo, después de un breve estancamiento, "Ya no te molesto.
+Final:  "But" he said, after a brief stagnation, "No longer bother you.
+"But" he said, after a brief stagnation, "No longer bother you.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+” “But,” he added, after a brief pause, “I’m not going to bother you now.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Hindi->Spanish->Hindi->Hebrew->Italian->Spanish->English
+
+#SemanticDistorter
+Original: Suddenly there was the short, sharp ring of a revolver, then a shrill scream, and next moment the crowd dispersed, running in all directions.
+Translated from English to Hindi:  अचानक एक विद्रोही की छोटी, तेज अंगूठी थी, फिर एक चिड़िया चिल्लाती थी, और अगले क्षण भीड़ फैल गई, सभी दिशाओं में चल रही थी।.
+Translated from Hindi to Arabic:  فجأة كان هناك حلقة صغيرة حادة من الثوار ثم يصرخ الطيور واللحظة التالية التي ينتشر فيها الجمهور .
+Translated from Arabic to Hindi:  अचानक विद्रोहियों की एक तेज छोटी अंगूठी थी, और पक्षी चिल्लाते हैं और अगले क्षण दर्शकों को फैलते हैं।.
+Translated from Hindi to Arabic:  المتمردون المفاجئون كان لديهم خاتم صغير حاد والطيور تصرخ واللحظة التالية تنتشر إلى الجمهور .
+Translated from Arabic to Russian:  Сюрприз повстанцы имели небольшое, острое кольцо и птицы кричат, и следующий момент распространился на общественность.
+Translated from Russian to Hindi:  विद्रोहियों में एक छोटी, तेज अंगूठी और पक्षी चिल्लाते थे, और अगले क्षण जनता के सामने फैल गया।.
+Final:  In rebels shout a small, sharp ring and bird, and the next moment spread to the public. .
+In rebels shout a small, sharp ring and bird, and the next moment spread to the public. .
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Suddenly there was the short, sharp ring of a revolver, then a shrill scream, and next moment the crowd dispersed, running in all directions.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Hindi->Arabic->Hindi->Arabic->Russian->Hindi->English
+
+#SemanticDistorter
+Original: “Surely I am on an island of enchantment,” thought poor Tom, “or I cannot be awake!”.
+Translated from English to Arabic:  " بالتأكيد أنا في جزيرة ساحرة " ، يعتقد أن توم الفقير، " أو لا يمكن أن أكون مستيقظة " .
+Translated from Arabic to English:  Of course I'm on a witch island, thinking that poor Tom, or I can't be awake.
+Translated from English to Spanish:  Por supuesto que estoy en una isla de brujas, pensando en el pobre Tom, o no puedo estar despierto.
+Translated from Spanish to German:  Natürlich bin ich auf einer Hexeninsel, denke an armen Tom, oder ich kann nicht wach sein.
+Final:  Of course I'm on a witch island, thinking of poor Tom, or I can't be awake.
+Of course I'm on a witch island, thinking of poor Tom, or I can't be awake.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+“Surely I am on an island of enchantment,” thought poor Tom, “or I cannot be awake!”.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Arabic->English->Spanish->German->English
+
+#SemanticDistorter
+Original: Captain Herbert himself superintended the lad’s book-studies, so on the whole he was well off; and it is no wonder, therefore, that before he had been to sea for three years he was able to reef, steer, and do his duty both on deck and below almost as well as Holborn could.
+Translated from English to Russian:  Капитан Герберт сам превзошел книжные исследования, так что в целом он был хорош; и неудивительно, поэтому, прежде чем он был в море в течение трех лет, он мог риф, управлять и выполнять свой долг как на палубе, так и внизу почти так же, как Холборн мог.
+Translated from Russian to Azerbaijani:  Captain Herbert özü kitabların tarixi idi, belə ki, çox yaxşı idi; və heç bir merak, o üç il üçün əvvvəl dəyərindən əvvəl, güclü ola bilər və onun həmçinin tərəfindən dəyişiklik edə bilər.
+Translated from Azerbaijani to Arabic:  (هيربرت) نفسه كان تاريخ الكتب، لذا كان جيداً جداً، ولا عجب، قد يكون قوياً قبل يد اليد لمدة ثلاث سنوات، وقد يتغير إلى جانب زملائه.
+Translated from Arabic to Russian:  Герберт сам был историей книг, поэтому он был очень хорош, и неудивительно, что он мог быть сильным за три года до руки, и он мог измениться вместе со своими коллегами.
+Translated from Russian to Esperanto:  Herbert mem estis rakonto de libroj, tiel ke li estis tre bona, kaj neniu miraklo li povis esti forta tri jarojn antaŭ siaj manoj, kaj li povis ŝanĝiĝi kun siaj kolegoj.
+Translated from Esperanto to German:  Herbert selbst war eine Geschichte von Büchern, so dass er sehr gut war, und kein Wunder, dass er drei Jahre vor seinen Händen stark sein konnte, und er konnte sich mit seinen Kollegen ändern.
+Translated from German to Hebrew:  הרברט עצמו היה סיפור על ספרים, אז הוא היה טוב מאוד, ואין פלא שהוא יכול להיות חזק שלוש שנים לפני ידיו, והוא יכול להשתנות עם עמיתיו.
+Final:  Herbert himself was a story about books, so he was very good, and no wonder he could be strong three years before his hands, and he could change with his colleagues.
+Herbert himself was a story about books, so he was very good, and no wonder he could be strong three years before his hands, and he could change with his colleagues.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Captain Herbert himself superintended the lad’s book-studies, so on the whole he was well off; and it is no wonder, therefore, that before he had been to sea for three years he was able to reef, steer, and do his duty both on deck and below almost as well as Holborn could.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Russian->Azerbaijani->Arabic->Russian->Esperanto->German->Hebrew->English
+
+#SemanticDistorter
+Original: Tom had never known so cool a sailor as this.
+Translated from English to Korean:  Tom은 결코 알려지지 않았기 때문에 항해자.
+Translated from Korean to English:  Tom has never been known to sailors.
+Translated from English to Thai:  Tom ไม่เคยเป็นที่รู้จักในเรือ.
+Translated from Thai to English:  Tom never known as a boat.
+Translated from English to German:  Tom kannte nie ein Boot.
+Translated from German to Arabic:  توم لم يعرف قارباً.
+Translated from Arabic to Esperanto:  tom ne konis ŝipeton.
+Translated from Esperanto to Spanish:  tom no conocía un barco.
+Translated from Spanish to Irish:  ní raibh a fhios tom bád.
+Final:  did not know a boat tom.
+did not know a boat tom.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Tom had never known so cool a sailor as this.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Korean->English->Thai->English->German->Arabic->Esperanto->Spanish->Irish->English
+
+#SemanticDistorter
+Original: What were they going to be? Well, Dick said he should be a clergyman and nothing else, and Jack had made up his mind to be a cow-boy.
+Translated from English to Russian:  Какими они были? Ну... Дик сказал, что должен быть священником и ничего другого, и Джек решил стать ковбой.
+Translated from Russian to Azerbaijani:  Onlar kimi idi? Yadda saxla Dick o bir kahin və digər bir şey olmaq idi, və Jack bir kovboy olmağa karar verdi.
+Translated from Azerbaijani to Arabic:  كانوا مثل؟ تذكّرْني ديك كَانَ a كاهن وأيّ شئ آخر، جاك قرّرَ أَنْ يَكُونَ a راعي بقر.
+Translated from Arabic to Irish:  cuimhnigh go raibh mé dick sagart agus rud ar bith eile, chinn jack a bheith ina cowboy.
+Translated from Irish to German:  erinnern sie sich daran, dass ich ein priesterschwanz war und nichts anderes, jack beschlossen, ein cowboy zu sein.
+Final:  remember that i was a priestly dick and nothing else, jack decided to be a cowboy.
+remember that i was a priestly dick and nothing else, jack decided to be a cowboy.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+What were they going to be? Well, Dick said he should be a clergyman and nothing else, and Jack had made up his mind to be a cow-boy.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Russian->Azerbaijani->Arabic->Irish->German->English
+
+#SemanticDistorter
+Original: “O, I pray, sah, fo’ true.
+Translated from English to German:  „O, ich bete, sah, fo’ true.
+Translated from German to Azerbaijani:  "O, Mən dua, gördüm, fo" doğru.
+Translated from Azerbaijani to Spanish:  "O, rezo, vi, fo" verdad.
+Translated from Spanish to Hebrew:  "או, אני מתפלל, ראיתי את האמת".
+Translated from Hebrew to Thai:  “เขา, ผมอธิษฐาน, ผมเห็นความจริง. ”.
+Translated from Thai to Esperanto:  "Li, mi preĝas, mi vidis la veron.".
+Translated from Esperanto to Italian:  "Prego, ho visto la verità.".
+Translated from Italian to Esperanto:  "Mi preĝas, mi vidis la veron.".
+Final:  "I pray, I saw the truth.".
+"I pray, I saw the truth.".
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+“O, I pray, sah, fo’ true.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->German->Azerbaijani->Spanish->Hebrew->Thai->Esperanto->Italian->Esperanto->English
+
+#SemanticDistorter
+Original: Poets and artists, and clever people generally, used to say we gave quite a character to the landscape.
+Translated from English to Italian:  Poeti e artisti, e persone intelligenti in generale, dicevano che abbiamo dato un bel carattere al paesaggio.
+Translated from Italian to Esperanto:  Poetoj kaj artistoj, kaj inteligentaj homoj ĝenerale, diris ke ni donis bonan karakteron al la pejzaĝo.
+Translated from Esperanto to Hebrew:  המשוררים והאמנים, והאנשים האינטליגנטיים, אמרו בדרך כלל, שנתנו אופי טוב לנוף.
+Translated from Hebrew to Hindi:  कवियों और कलाकारों और बुद्धिमान लोगों ने आम तौर पर कहा है कि हमने परिदृश्य को अच्छा चरित्र दिया है।.
+Translated from Hindi to Thai:  กวีและศิลปินและอาชีพที่มีความหมายโดยทั่วไปว่าเราได้รับตัวละครที่ดีกับภูมิทัศน์ .
+Translated from Thai to German:  Vorführung und Künstler Im Allgemeinen haben wir einen guten Charakter mit Landschaft erhalten.
+Translated from German to Azerbaijani:  Qeydiyyat və Artists Ümumi, biz mövzu ilə yaxşı bir xarakter aldı.
+Translated from Azerbaijani to English:  Signup and Artists General, we received a good character with the subject.
+Translated from English to Arabic:  التوقيع و الفنانون العام، تلقينا شخصية جيدة مع الموضوع.
+Final:  Sign and general artists, we received a good personality with the subject.
+Sign and general artists, we received a good personality with the subject.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Poets and artists, and clever people generally, used to say we gave quite a character to the landscape.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Italian->Esperanto->Hebrew->Hindi->Thai->German->Azerbaijani->English->Arabic->English
+
+#SemanticDistorter
+Original: Tom had already enjoyed some of the delights of Ecuador travelling--if, indeed, there was very much delight in it--and his adventures as far as Riobamba would be worth relating were it not that those which followed were far more thrilling.
+Translated from English to Italian:  Tom aveva già goduto alcune delle delizie del viaggio dell'Ecuador - se, infatti, c'era molta delizia in esso - e le sue avventure fino a Riobamba sarebbe valsa la pena riferire non era che quelli che seguivano erano molto più eccitanti.
+Translated from Italian to Thai:  Tom มีความสุขมากมายของการเดินทางของไซปรัส - ถ้าในความเป็นจริงมีความสุขมากมากมาก - และการผจญภัยของเขาที่จะคุ้มค่าที่จะได้รับรายงานว่า ซารานานานาจะคุ้มค่ามากขึ้น.
+Translated from Thai to Azerbaijani:  Tom Kipr səyahətində bir çox fun var - həyata, çox xoşbəxt - və onun macərq hesabat almaq üçün lazımdır. Sarana daha yaxşı olacaq.
+Translated from Azerbaijani to German:  Tom Cyprus hat viel Spaß auf der Reise - Leben, sehr glücklich - und es ist notwendig, seinen Abenteuerbericht zu kaufen. Sarana wird besser.
+Translated from German to Esperanto:  Tom Kipro havas multe da amuzo sur la ekskurseto - vivo, tre feliĉa - kaj estas necese aĉeti lian aventurraporton. Sarano estas pli bona.
+Translated from Esperanto to Korean:  Tom Cyprus는 여행에 매우 재미있어, 매우 행복 - 그리고 그것은 그의 모험 보고서를 구입해야합니다. 사라노가 더 좋습니다.
+Final:  Tom Cyprus is very interesting for travel, very happy - and it needs to purchase his adventure report. Sarano is better.
+Tom Cyprus is very interesting for travel, very happy - and it needs to purchase his adventure report. Sarano is better.
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+Tom had already enjoyed some of the delights of Ecuador travelling--if, indeed, there was very much delight in it--and his adventures as far as Riobamba would be worth relating were it not that those which followed were far more thrilling.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Italian->Thai->Azerbaijani->German->Esperanto->Korean->English
+
+#SemanticDistorter
+Original: They even managed to domesticate them.
+Translated from English to Azerbaijani:  Onlar haqqında onları tikindi.
+Translated from Azerbaijani to English:  They built them about them.
+Translated from English to Hindi:  उन्होंने उन्हें उनके बारे में बताया।.
+Translated from Hindi to English:  He told them about them. .
+Translated from English to Azerbaijani:  O onlara haqqında dedi. .
+Translated from Azerbaijani to Hindi:  उन्होंने उनसे कहा। ।.
+Translated from Hindi to Thai:  เขาบอกว่าพวกเขา .
+Translated from Thai to English:  He said to them.
+Translated from English to Hindi:  उन्होंने उनसे कहा।.
+Final:  He said to them. .
+He said to them. .
+#SemanticDistorter #NondeterministicPoetry
+Original Text:
+
+They even managed to domesticate them.
+
+is a line from the book 'The Hermit Hunter of the Wilds' by Gordon Stables was translated English->Azerbaijani->English->Hindi->English->Azerbaijani->Hindi->Thai->English->Hindi->English
+
+#SemanticDistorter

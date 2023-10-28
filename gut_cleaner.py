@@ -3,11 +3,11 @@
 import re
 
 
-gutenberg_text_ebook_title = "Alices Adventures in Wonderland by Lewis Carroll.txt"
+gutenberg_text_ebook_title = "Arthur Conan Doyle-The Adventures of Sherlock Holmes.txt"
 
 # Input and output file names
-input_file_name = "books/source/" + gutenberg_text_ebook_title  # Replace with your input file name
-output_file_name = "books/lines/" + gutenberg_text_ebook_title  # Replace with your output file name
+input_file_name = "./books/source/" + gutenberg_text_ebook_title  # Replace with your input file name
+output_file_name = "./books/lines/" + gutenberg_text_ebook_title  # Replace with your output file name
 
 # Open the input file for reading
 with open(input_file_name, "r") as input_file:
@@ -23,7 +23,7 @@ with open(output_file_name, "w") as output_file:
         #   and remove it.
         # unbroken_paragraph = re.sub(r"([^\.])\n", r"\1 ", line)
         # Filter out short lines
-        sentences = line.split(".")
+        sentences = line.split(". ")
         for sentence in sentences:
             sentence = sentence.strip()
             if len(sentence) > 12:

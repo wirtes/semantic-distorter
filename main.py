@@ -74,7 +74,9 @@ def post_to_mastodon(message_obj, config, translation_path, author, title, numbe
         api_base_url = config["base_url"]
     )
     # number_of_translations = len(message_obj) - 1
-    message_text = message_obj["final"] + "\n\nA random sentence from '" + title + "' by " + author + " translated " + str(number_of_translations) + " times.\n#SemanticDistorter #NondeterministicPoetry"
+    #message_text = message_obj["final"] + "\n\nA random sentence from '" + title + "' by " + author + " translated " + str(number_of_translations) + " times.\n#SemanticDistorter #NondeterministicPoetry"
+    message_text = message_obj["final"] + "\n#SemanticDistorter #NondeterministicPoetry"
+
 
     # Post a status update
     initial_status_id = mastodon.status_post(status=message_text, visibility="public")
