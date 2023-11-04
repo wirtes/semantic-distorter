@@ -2,4 +2,4 @@
 config/config.json
 cronlog.txt
 testing/*
-
+images/autogen/*

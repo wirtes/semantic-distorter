@@ -4,6 +4,7 @@ import requests
 import json
 import random
 import sqlite3
+import base64
 from mastodon import Mastodon
 from pprint import pprint
 
@@ -67,6 +68,38 @@ def get_a_line():
     return random_line
 
 
+def save_image_from_json(response, image_save_path):
+  try:
+    data = response.json()
+    image_data = data.get("images")
+    if image_data:
+      image_bytes = base64.b64decode(image_data[0])
+      with open(image_save_path, 'wb') as image_file:
+        image_file.write(image_bytes)
+      print(f"Image saved to {image_save_path}")
+    else:
+      print("No 'images' element found in the JSON data.")
+
+  except Exception as e:
+    print(f"An error occurred: {str(e)}")
+
+
+def generate_image_from_prompt(text_prompt, api_url, api_key):
+  payload = json.dumps({
+    "prompt": text_prompt,
+    "steps": 100
+  })
+  headers = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer ' + api_key
+  }
+  response = requests.request("POST", api_url, headers=headers, data=payload)
+  # print(response.json())
+  print(response)
+  # save_image_from_json(response, './image2.png')
+  return response
+
+
 def post_to_mastodon(message_obj, config, translation_path, author, title, number_of_translations):
     # Initialize the Mastodon API client
     mastodon = Mastodon(
@@ -77,9 +110,15 @@ def post_to_mastodon(message_obj, config, translation_path, author, title, numbe
     #message_text = message_obj["final"] + "\n\nA random sentence from '" + title + "' by " + author + " translated " + str(number_of_translations) + " times.\n#SemanticDistorter #NondeterministicPoetry"
     message_text = message_obj["final"] + "\n#SemanticDistorter #NondeterministicPoetry"
 
+    # Setup the media:
+    alt_text = "A random sentence from '" + title + "' by " + author + " translated " + str(number_of_translations) + " times."
+    alt_text += "\n\nOriginal text:\n" + message_obj["original"]
+    alt_text += "\n\nTranslation Path:\n" + message_obj["translation_path"]
+    alt_text += "\n\nThe final text which was used to generate image:\n" + message_obj["final"]
+    media = mastodon.media_post('/home/pi/botcode/images/autogen/image.png', description=alt_text)
 
     # Post a status update
-    initial_status_id = mastodon.status_post(status=message_text, visibility="public")
+    initial_status_id = mastodon.status_post(status=message_text, visibility="public", media_ids=media)
 
     print(message_text)
 
@@ -104,7 +143,7 @@ if __name__ == '__main__':
     message_obj["original"] = original_text_to_translate
     print ("Original: " + original_text_to_translate)
     # Pick a number of times to translate the statement
-    cycles = random.randint(5, 10)
+    cycles = random.randint(5, 8)
     text_to_translate = original_text_to_translate
     translate_from_language = "en"
     current_cycle = 1
@@ -125,7 +164,14 @@ if __name__ == '__main__':
     translated_text = translate(translated_text, translate_from_language, "en")
     message_obj["final"] = translated_text
     translation_path += "English"
+    message_obj["translation_path"] = translation_path
     print("Final: ", translated_text)
+    # Create an image from the translated_text
+    text_prompt = "An oil painting from the Victorian era about " + translated_text
+    response = generate_image_from_prompt(text_prompt, config["wizmodel_api_url"], config["wizmodel_api_key"])
+    # Save the image to disk
+    save_image_from_json(response, '/home/pi/botcode/images/autogen/image.png')
+    pprint(message_obj)
     post_to_mastodon(message_obj, config, translation_path, author, title, current_cycle)
 
 
