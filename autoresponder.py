@@ -78,7 +78,7 @@ def create_and_post_reply(mention_text, message_id, acct):
     message_obj["original"] = original_text_to_translate
     print ("Original: " + original_text_to_translate)
     # Pick a number of times to translate the statement
-    cycles = random.randint(5, 8)
+    cycles = random.randint(config["min_translations"], config["max_translations"])
     text_to_translate = original_text_to_translate
     translate_from_language = "en"
     current_cycle = 1

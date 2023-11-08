@@ -1,8 +1,27 @@
 {
-    "api_key": "",
-    "username": "",
-    "base_url": "",
-    "languages": {    "en": "English",
+  "_comment": "General",
+  "poll_interval": 20,
+  "working_directory": "<path to script>",
+  "hash_tags": "#SemanticDistorter #NondeterministicPoetry",
+
+
+  "_comment": "Mastodon Section",
+  "api_key": "",
+  "username": "<username without the @ at the front but including @<your instance>",
+  "base_url": "<URL of your Mastodon instance>",
+  "mastodon_user_name": "<just your username, no @ or instance. One of these username fields is unnused & need to be cleaned up.",
+
+  "_comment": "WizModel Section",
+  "wizmodel_api_key": "",
+  "wizmodel_api_url": "https://api.wizmodel.com/sdapi/v1/txt2img",
+  "sd_image_prompt": "Style prompt for image posts",
+  "sd_reply_image_prompt": "Style prompt for reply posts",
+
+  "_comment": "Translation Section. Delete any languages that you don't wish to use.",
+  "translation_endpoint_url": "",
+  "min_translations": 3,
+  "max_translations": 6,
+  "languages": {    "en": "English",
                       "es": "Spanish",
                       "ru": "Russian",
                       "it": "Italian",
