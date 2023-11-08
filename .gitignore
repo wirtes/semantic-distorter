@@ -3,3 +3,5 @@ config/config.json
 cronlog.txt
 testing/*
 images/autogen/*.png
+__pycache__/*
+
