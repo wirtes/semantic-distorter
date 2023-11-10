@@ -113,14 +113,10 @@ def post_to_mastodon(message_obj, config, translation_path, author, title, numbe
     alt_text += "\n\nThe final text which was used to generate image:\n" + message_obj["final"]
     media = mastodon.media_post(working_directory + '/images/autogen/image.png', description=alt_text)
     # Post a status update to the Mastodon account
+    if len(message_text) > 499:
+        message_text = message_text[:499]
     initial_status_id = mastodon.status_post(status=message_text, visibility="public", media_ids=media)
     print(message_text)
-    # reply_text = ("Original Text:\n\n" + message_obj["original"] + "\n\nis a line from the book '"
-    #               + title + "' by " + author + " was translated " + translation_path + "\n\n#SemanticDistorter")
-    # Commeting out the reply to
-    # Post a reply to the original status
-    #initial_status_id = mastodon.status_post(status=reply_text, in_reply_to_id=initial_status_id, visibility="unlisted")
-    # print(reply_text)
     return
 
 
@@ -140,6 +136,8 @@ def post_reply_to_mastodon(message_obj, config, translation_path, number_of_tran
     alt_text += "\n\nThe final text used to generate image:\n" + message_obj["final"]
     media = mastodon.media_post(working_directory + '/images/autogen/reply_image.png', description=alt_text)
     # Post a status update to the Mastodon account
+    if len(message_text) > 499:
+        message_text = message_text[:499]
     initial_status_id = mastodon.status_post(status=message_text, visibility="unlisted", media_ids=media, in_reply_to_id=message_id)
     print(message_text)
     # reply_text = ("Original Text:\n\n" + message_obj["original"] + "\n\nis a line from the book '"

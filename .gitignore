@@ -1,6 +1,7 @@
 .DS_Store
 config/config.json
 cronlog.txt
+cronlog_reply.txt
 testing/*
 images/autogen/*.png
 __pycache__/*

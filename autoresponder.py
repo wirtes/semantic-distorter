@@ -60,6 +60,8 @@ def post_reply(content, message_id):
         access_token=config["api_key"],
         api_base_url=config["base_url"]
     )
+    if len(content) > 499:
+        content = content[:499]
     initial_status_id = mastodon.status_post(status=content, in_reply_to_id=message_id, visibility="public")
     # print(initial_status_id)
     return initial_status_id
@@ -112,12 +114,14 @@ def create_and_post_reply(mention_text, message_id, acct):
 
 def respond_to_mentions(last_mention_id):
     while True:
+        # Let's sleep first to see if that calms down the OS after a reboot
+        time.sleep(config["poll_interval"])
         mention_ids = []
         # Get the latest state
 
-        print("last_mention_id: " + str(last_mention_id)) 
+        print("last_mention_id: " + str(last_mention_id))
         # Fetch mentions in your timeline
-        mentions = mastodon.notifications(since_id=last_mention_id) 
+        mentions = mastodon.notifications(since_id=last_mention_id)
         # pprint(mentions)
         print("Fetched Notifications")
         print("Number of mentions: " + str(len(mentions)))
@@ -156,7 +160,7 @@ def respond_to_mentions(last_mention_id):
             print("Last Mention Id: " + str(last_mention_id))
             write_state(last_mention_id)
         print("\n\n=====\n\n")
-        time.sleep(config["poll_interval"])
+
 
 if __name__ == "__main__":
     respond_to_mentions(read_state())
