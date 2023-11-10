@@ -2,6 +2,7 @@
 config/config.json
 cronlog.txt
 cronlog_reply.txt
+cron_err.txt
 testing/*
 images/autogen/*.png
 __pycache__/*
