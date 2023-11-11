@@ -8,6 +8,8 @@ import time
 from bs4 import BeautifulSoup
 import sys
 import random
+from datetime import datetime
+
 
 # Setup Global Variables
 config = semantic_distorter.get_config("/home/pi/botcode")
@@ -125,6 +127,12 @@ def respond_to_mentions(last_mention_id):
         # pprint(mentions)
         print("Fetched Notifications")
         print("Number of mentions: " + str(len(mentions)))
+        # Get the current date and time
+        current_datetime = datetime.now()
+        # Format the current date and time as a string
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+        # Print the formatted date and time
+        print("Current Date and Time:", formatted_datetime)
         highest_mention_id = 0
 
         if len(mentions) > 0:
