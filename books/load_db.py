@@ -3,9 +3,9 @@
 import sqlite3
 
 # CONFIGURE BOOK TO LOAD HERE:
-text_file_name = "There Was an Old Woman-Robert Silverberg.txt"  # Replace with the name of your text file
-author = "Robert Silverberg"
-title = "here Was an Old Woman"
+text_file_name = "Mary Wollstonecraft Shelley-Frankenstein.txt"  # Replace with the name of your text file
+author = "Mary Wollstonecraft Shelley"
+title = "Frankenstein"
 
 
 # Define the SQLite database file name
