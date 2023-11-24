@@ -5,7 +5,7 @@ from pprint import pprint
 import semantic_distorter
 
 # Setup Global Variables we can't store in config (like the location of config)
-working_directory = "/home/pi/botcode"
+working_directory = "/home/pi/semantic-distorter"
 
 
 if __name__ == '__main__':
