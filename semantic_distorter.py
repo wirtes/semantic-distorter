@@ -94,6 +94,7 @@ def generate_image_from_prompt(text_prompt, api_url, api_key):
         'Authorization': 'Bearer ' + api_key
         }
     response = requests.request("POST", api_url, headers=headers, data=payload)
+    print(response)
     return response
 
 
